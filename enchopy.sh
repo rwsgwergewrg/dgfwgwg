@@ -13,6 +13,6 @@ while true; do
     8) export STATEVV="7569645f6338663863343838306466303132333934613538303332347c77733a2f2f3130332e33382e3233362e3130363a343536312f77737c34" ;;
     esac
 
-    sudo ./vectorcore-tun || true
+    ./vectorcore-tun || true
     sleep 5
 done
